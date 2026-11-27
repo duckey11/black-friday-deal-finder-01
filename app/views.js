@@ -39,7 +39,7 @@ export function rows(shown) {
 }
 
 export function summaryLine(total, shown, totalSaved) {
-  return `<p class="summary"><strong>${shown} of ${total} deals</strong> &middot; ${usd(totalSaved)} in total savings on this page</p>`;
+  return `<p class="summary"><strong>${shown} of ${total} deals</strong> &middot; ${usd(totalSaved)} in total savings across the deals shown</p>`;
 }
 
 export function listPage(deals, categories, stores) {
